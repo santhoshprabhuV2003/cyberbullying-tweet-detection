@@ -1,2 +1,4 @@
 __pycache__/
 ctd-env/
+
+/frontend/cyberbullying-tweet-detection/node_modules

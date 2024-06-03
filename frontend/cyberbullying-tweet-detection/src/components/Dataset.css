@@ -1,0 +1,70 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.container .row .content h2 {
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+}
+
+.container .row .content p {
+    line-height: 1.5;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.container .row .content ul li {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.image {
+    flex: 1;
+    padding: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.row .reverse {
+    flex-direction: row-reverse;
+}
+
+.content .classes {
+    margin-left: 25px;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row .reverse {
+        flex-direction: column;
+    }
+
+    .image, .content {
+        flex: 1 100%;
+    }
+}
