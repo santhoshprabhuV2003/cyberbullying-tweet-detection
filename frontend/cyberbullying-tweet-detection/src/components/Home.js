@@ -12,7 +12,7 @@ const Home = () => {
         }
 
         try {
-            const response = await fetch('https://cyberbullying-tweet-detection-backend.onrender.com/predict', {
+            const response = await fetch('https://cyberbullying-tweet-detection.onrender.com/predict', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
