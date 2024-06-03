@@ -11,12 +11,12 @@ const Dataset = () => {
                     <p>Dataset consists of two columns: tweet_text and cyberbullying_type. This dataset contains 47692 tweets and cyberbullying_type is labelled according to the class of cyberbullying: Age, Ethnicity, Gender, Religion, Other type of cyberbullying, Not cyberbullying. The data has been balanced in order to contain ~8000 of each class. As mentioned by the authors in Kaggle, these tweets either describe a bullying event or are the offense themselves, therefore explore it to the point where you feel comfortable.</p>
                 </div>
                 <div className="image">
-                    <img src="/images/sample-dataset.png" alt="Sample Dataset"/>
+                    <img src="./images/sample-dataset.png" alt="Sample Dataset"/>
                 </div>
             </div>
             <div className="row reverse">
                 <div className="image">
-                    <img src="/images/class-distribution.png" alt="Class distribution"/>
+                    <img src="./images/class-distribution.png" alt="Class distribution"/>
                 </div>
                 <div className="content">
                     <h2>Cyberbullying type classes description</h2>

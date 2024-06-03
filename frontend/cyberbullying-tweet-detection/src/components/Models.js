@@ -10,7 +10,7 @@ const Models = () => {
                 <div className="content-section">
                     <div className="card">
                         <div className="card-img-container">
-                            <img src="/images/LR.png" alt="Logistic Regression"/>
+                            <img src="./images/LR.png" alt="Logistic Regression"/>
                         </div>
                         <h4>LOGISTIC REGRESSION</h4>
                         <p>Logistic Regression is one of the fundamental machine learning classifiers. It is a widely used machine learning classifier. Logistic Regression, commonly used for binary classification, can also be extended to multi-class classification scenarios. In the context of this project, Cyberbullying Tweet Detection with six classes, Logistic Regression serves as a versatile algorithm for categorizing tweets into different cyberbullying types.</p>
@@ -18,7 +18,7 @@ const Models = () => {
                     </div>
                     <div className="card">
                         <div className="card-img-container">
-                            <img src="/images/SVM.png" alt="Support Vector Machine"/>
+                            <img src="./images/SVM.png" alt="Support Vector Machine"/>
                         </div>
                         <h4>SUPPORT VECTOR MACHINE</h4>
                         <p>In the realm of machine learning, Support Vector Machines (SVM) stand as a formidable tool for classification and regression tasks. The essence of SVM lies in its ability to find the optimal decision boundary, or hyperplane, that effectively separates data points of different classes.</p>
@@ -26,7 +26,7 @@ const Models = () => {
                     </div>
                     <div className="card">
                         <div className="card-img-container">
-                            <img src="/images/RF.png" alt="Random Forest"/>
+                            <img src="./images/RF.png" alt="Random Forest"/>
                         </div>
                         <h4>RANDOM FOREST</h4>
                         <p>Random Forest, a powerful ensemble learning technique, is well-suited for multi-class classification tasks. This versatile algorithm can effectively analyze various features to categorize tweets into different cyberbullying types.</p>

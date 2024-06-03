@@ -39,7 +39,7 @@ const Home = () => {
                     <p>The "Cyberbullying Tweet Detection" project looks into the world of machine learning to tackle the essential problem of cyberbullying detection in online communication. This project focuses on the creation and implementation of cutting-edge machine learning models to automatically recognize and categorize tweet content containing cyberbullying.</p>
                 </div>
                 <div className="image">
-                    <img src="/images/cyberbullying.png" alt="Cyberbullying"/>
+                    <img src="./images/cyberbullying.png" alt="Cyberbullying"/>
                 </div>
             </div>
             <div className="row">

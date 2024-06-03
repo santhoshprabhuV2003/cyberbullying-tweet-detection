@@ -8,12 +8,13 @@ import Dataset from './components/Dataset';
 function App() {
   return (
     <>
-      <Router>
+      {/* Basename for GitHub pages */}
+      <Router basename="/cyberbullying-tweet-detection">
         <Navbar/>
         <Routes>
-          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/cyberbullying-tweet-detection" element={<Home/>}/>
           <Route exact path="/models" element={<Models/>}/>
-          <Route exact path='/dataset' element={<Dataset/>}/>
+          <Route exact path="/dataset" element={<Dataset/>}/>
         </Routes>
       </Router>
     </>
