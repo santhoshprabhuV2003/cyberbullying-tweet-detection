@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cyberbullying-tweet-detection/static/css/main.31bb9bd7.css",
+    "main.js": "/cyberbullying-tweet-detection/static/js/main.b35198e6.js",
+    "static/js/453.aeebd481.chunk.js": "/cyberbullying-tweet-detection/static/js/453.aeebd481.chunk.js",
+    "index.html": "/cyberbullying-tweet-detection/index.html",
+    "main.31bb9bd7.css.map": "/cyberbullying-tweet-detection/static/css/main.31bb9bd7.css.map",
+    "main.b35198e6.js.map": "/cyberbullying-tweet-detection/static/js/main.b35198e6.js.map",
+    "453.aeebd481.chunk.js.map": "/cyberbullying-tweet-detection/static/js/453.aeebd481.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31bb9bd7.css",
+    "static/js/main.b35198e6.js"
+  ]
+}
