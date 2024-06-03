@@ -12,9 +12,9 @@ function App() {
       <Router basename="/cyberbullying-tweet-detection">
         <Navbar/>
         <Routes>
-          <Route exact path="/cyberbullying-tweet-detection" element={<Home/>}/>
-          <Route exact path="/models" element={<Models/>}/>
-          <Route exact path="/dataset" element={<Dataset/>}/>
+          <Route exact path="/" element={<Home/>}></Route>
+          <Route path="/models" element={<Models/>}></Route>
+          <Route path="/dataset" element={<Dataset/>}></Route>
         </Routes>
       </Router>
     </>
