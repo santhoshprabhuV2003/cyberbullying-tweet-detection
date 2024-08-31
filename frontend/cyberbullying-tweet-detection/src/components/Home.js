@@ -27,7 +27,7 @@ const Home = () => {
                 setPrediction("Error: Unable to get prediction");
             }
         } catch (error) {
-            setPrediction("Error: Unable to get prediction");
+            setPrediction("Backend is currently down. Sorry for Inconvenience. Please try again later.");
         }
     };
 
