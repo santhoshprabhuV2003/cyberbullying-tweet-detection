@@ -2,10 +2,6 @@ import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-import nltk
-nltk.download('wordnet')
-nltk.download('stopwords')
-
 from flask import Flask, request, jsonify
 from routes.predict import predict_tweet
 from flask_cors import CORS
