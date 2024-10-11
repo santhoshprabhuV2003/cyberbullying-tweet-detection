@@ -12,7 +12,8 @@ const Home = () => {
         }
 
         try {
-            const response = await fetch('https://cyberbullying-tweet-detection.onrender.com/predict', {
+            const apiUrl = process.env.BACKEND_API_URL;
+            const response = await fetch(`${apiUrl}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
