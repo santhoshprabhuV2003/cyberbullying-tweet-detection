@@ -12,6 +12,7 @@ The backend of the application is built using Flask, a lightweight WSGI web appl
 
     ```bash
     git clone https://github.com/santhoshprabhuV2003/cyberbullying-tweet-detection.git
+    cd backend
     ```
 
 2. Set Up Virtual Environment
@@ -31,10 +32,12 @@ The backend of the application is built using Flask, a lightweight WSGI web appl
 4. Run the Flask App
 
     ```bash
-    flask run
+    python app.py
     ```
 
 The Flask app will start running locally at http://localhost:5000. You can access the /predict endpoint by a post request with text as body of the request.
+
+Else you can build a docker image using the Dockerfile and run the flask application as a container.
 
 ## Frontend
 
