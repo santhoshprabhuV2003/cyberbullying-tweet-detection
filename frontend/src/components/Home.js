@@ -12,7 +12,7 @@ const Home = () => {
         }
 
         try {
-            const apiUrl = process.env.BACKEND_API_URL;
+            const apiUrl = process.env.BACKEND_API_URL || 'https://cyberbullying-tweet-detection.onrender.com/predict';
             const response = await fetch(`${apiUrl}`, {
                 method: 'POST',
                 headers: {
